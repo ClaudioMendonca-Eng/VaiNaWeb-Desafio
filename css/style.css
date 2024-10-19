@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #FF69B4;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 650px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+}
+
+.BoxLogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 650px) {
+  .BoxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 650px) {
+  .BoxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo h1 {
+    font-size: 3.1vw;
+  }
+}
+@media (max-width: 1000px) {
+  .BoxLogo img {
+    width: 9vw;
+  }
+}
+@media (max-width: 650px) {
+  .BoxLogo img {
+    width: 12vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo img {
+    width: 15vw;
+  }
+}
+
+nav {
+  width: 40vw;
+}
+@media (max-width: 650px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+@media (max-width: 650px) {
+  nav ul {
+    justify-content: space-evenly;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 3vw;
+  }
+}
+nav ul a {
+  color: white;
+}
+
+main .sessaoSobre {
+  background-color: #FFD9EC;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .sessaoSobre p {
+  width: 50vw;
+  font-size: 1.7vw;
+}
+@media (max-width: 650px) {
+  main .sessaoSobre p {
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  main .sessaoSobre p {
+    font-size: 2.6vw;
+  }
+}
+main .sessaoSobre img {
+  width: 18vw;
+}
+@media (max-width: 650px) {
+  main .sessaoSobre img {
+    width: 40vw;
+  }
+}
+@media (max-width: 500px) {
+  main .sessaoSobre img {
+    width: 40vw;
+  }
+}
+main .sessaoPromave {
+  background-color: #FF69B4;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .sessaoPromave p {
+  color: white;
+  width: 40vw;
+  font-size: 1.5vw;
+}
+@media (max-width: 650px) {
+  main .sessaoPromave p {
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  main .sessaoPromave p {
+    font-size: 2.6vw;
+  }
+}
+main .sessaoPromave img {
+  width: 23vw;
+}
+@media (max-width: 650px) {
+  main .sessaoPromave img {
+    width: 50vw;
+  }
+}
+@media (max-width: 500px) {
+  main .sessaoPromave img {
+    width: 50vw;
+  }
+}
+main .sessaoAcao {
+  background-color: #FFD9EC;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 650px) {
+  main .sessaoAcao {
+    height: 80vh;
+  }
+}
+@media (max-width: 650px) {
+  main .sessaoAcao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
+main .sessaoAcao img {
+  width: 15vw;
+}
+@media (max-width: 650px) {
+  main .sessaoAcao img {
+    width: 25vw;
+  }
+}
+@media (max-width: 500px) {
+  main .sessaoAcao img {
+    width: 35vw;
+  }
+}
+
+footer .baseFooter {
+  background-color: #FF69B4;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .baseFooter .boxIcones {
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .baseFooter .boxInformacoes {
+  color: white;
+  width: 25vw;
+  font-size: 0.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 650px) {
+  footer .baseFooter .boxInformacoes {
+    width: 50vw;
+    font-size: 1.8vw;
+  }
+}
+@media (max-width: 500px) {
+  footer .baseFooter .boxInformacoes {
+    width: 70vw;
+    font-size: 2.5vw;
+  }
+}
+footer .baseFooter img {
+  width: 4vw;
+}
+@media (max-width: 650px) {
+  footer .baseFooter img {
+    width: 8vw;
+  }
+}
+@media (max-width: 500px) {
+  footer .baseFooter img {
+    width: 5vw;
+  }
+}/*# sourceMappingURL=style.css.map */
